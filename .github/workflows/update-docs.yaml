@@ -1,8 +1,6 @@
 name: "Update docs"
 on:
   workflow_dispatch: {}
-  schedule:
-    - cron: 0 8 * * *
 env:
   DOCS_REPO: kumahq/kuma-website
   OUTPUT_PATH: app/docs
